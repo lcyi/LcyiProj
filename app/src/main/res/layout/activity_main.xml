@@ -13,16 +13,17 @@
         android:src="@mipmap/ico" />
 
     <ImageButton
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton"
         android:src="@mipmap/ico"
         />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="button"
+
+        android:text="@string/button_name"
         android:id="@+id/button"
          />
 </LinearLayout>
